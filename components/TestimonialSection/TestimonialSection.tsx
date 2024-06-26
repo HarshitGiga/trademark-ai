@@ -35,9 +35,9 @@ export const TestimonialSection = () => {
             Testimonials
           </h2>
           <p className="mt-4 text-lg leading-6 text-gray-500 text-center">
-            Don't just take our word for it. See how our platform is helping
-            individuals and IP firms like yours achieve greater efficiency and
-            brand protection:
+            {
+              "Don't just take our word for it. See how our platform is helping individuals and IP firms like yours achieve greater efficiency and brand protection:"
+            }
           </p>
         </div>
       </div>

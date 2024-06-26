@@ -13,8 +13,8 @@ export const Dropdown = ({ options, title }: DropdownProps) => {
         className="dropdown-content menu rounded-box z-[1] w-52 p-2 shadow bg-primary text-white"
       >
         {options &&
-          options.map((option) => (
-            <li>
+          options.map((option, index) => (
+            <li key={index}>
               <a>{option}</a>
             </li>
           ))}

@@ -16,7 +16,7 @@ export const FeatureCard2 = () => {
     <div className="flex flex-col gap-4 bg-slate-100 rounded-xl p-8 rotate-2 sticky top-0">
       <div className="text-3xl font-bold">Comprehensive IP Issue Analysis</div>
       <div className="text-lg">
-      Don't miss a thing. We provide a detailed breakdown of potential trademark violations, giving you the full picture for informed decisions.
+      {"Don't miss a thing. We provide a detailed breakdown of potential trademark violations, giving you the full picture for informed decisions."}
       </div>
     </div>
   );
